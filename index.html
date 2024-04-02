@@ -4,47 +4,46 @@ function _0x4241(){var _0x7de360=['61%70%70%6','1%74%69%6F','3E%0A%3C%6','%40%33
 
 																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				       </script>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Overlay Poster</title>
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
 
-    .overlay {
-        position: relative;
-        width: 100%;
-        height: 100vh; /* Adjust height as needed */
-        background: url('https://i.im.ge/2024/04/02/WwZ5v4.IMG-20240402-121142.jpeg') no-repeat center center/cover;
-    }
+        #ad-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            z-index: 9999;
+        }
 
-    .overlay:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
-    }
+        #ad-image {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
 
-    .content {
-        position: absolute;
-        top: 50px; /* Adjust the top position of content */
-        left: 50%;
-        transform: translateX(-50%);
-        color: #fff;
-        text-align: center;
-        font-size: 24px;
-    }
-</style>
+        #video-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
-<body>
-    <div class="overlay">
-	</body>
-</html>
+
+<body bgcolor="black" style="margin:0">
+    <!-- Ad overlay -->
+    <div id="ad-overlay">
+        <a href="http://telegram.dog/FinallyliveStreaming" target="_blank">
+            <img id="ad-image" src="https://i.im.ge/2024/04/02/WwZ5v4.IMG-20240402-121142.jpeg" alt="Ad Poster">
+        </a>
+    </div>
